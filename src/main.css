@@ -1,8 +1,5 @@
 #calculator {
-    margin: 5px;
-    background-color: lightgray;
     padding: 25px;
-    border-radius: 10px;
     width: 300px;
 }
 
@@ -16,31 +13,15 @@
 .calculatorform {
     background-color: rgba(0, 0, 0, 0);
     border-style: none none solid none;
+    border-color:black;
+    border-width:1.5px;
     width: 50px;
     font-family: monospace;
     color:black;
 }
 
-body, button {
+body {
     font-family: monospace;
     color:black;
     font-size: large;
-}
-
-button {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: none;
-}
-
-button:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-table td, table td * {
-    vertical-align: top;
-}
-
-a, a:visited, a:active {
-    text-decoration: underline;
-    color: black;
 }
